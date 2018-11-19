@@ -7,7 +7,7 @@ function renderButtons() {
     //looping thru array and creating a button for each one w/ classes, datname, and text
     for (var i = 0; i < topics.length; i++) {
         var a = $("<button>");
-        a.addClass("foodButton btn btn-secondary m-2 text-uppercase");
+        a.addClass("foodButton btn btn-warning m-2 text-uppercase");
         a.attr("data-name", topics[i]);
         a.text(topics[i]);
         $("#buttons").append(a);
